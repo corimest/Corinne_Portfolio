@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:inherit;
+}
+/* Header Styles */
+header{
+    padding: 20px 30px;
+    background-color: rgb(145, 207, 145);
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header div {
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    align-items: center;
+}
+/* Hero Styles */
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: none;
+    flex-grow: 1;
+}
+hero {
+    background-color: white;
+    
+}
+hero #hi{
+    font-size: 100px;
+    color: rgb(145, 207, 145);
+    padding-left: 20px;
+}
+hero #name {
+    font-size: 100px;
+    color: rgb(145, 207, 145);
+    padding-left: 20px;
+}
+hero #extra {
+    font-size: 100px;
+    color: rgb(145, 207, 145);
+    padding-left: 20px;
+}
+hero img {
+    height: 540px;
+}
+/* About Me Styles */
+#About-Me {
+    background-color: rgb(145, 207, 145);
+}
+/* Contact Me Styles */
+.Contact-Me {
+    background-color: rgb(145, 207, 145);
+}
