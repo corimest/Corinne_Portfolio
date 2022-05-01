@@ -12,6 +12,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    position: sticky;
 }
 header div {
     color: white;
@@ -115,45 +116,45 @@ hero img {
     font-style: italic;
 }
 /* Work */
-.work {
-    align-items: center;
-    padding: 20px;
-    flex-grow: 1;
-    background-color: rgba(202, 254, 167, 0.5);
-}
-.work article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.work-content-all {
     color: rgb(145, 207, 145);
     font-size: 100px;
     padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgba(202, 254, 167, 0.5);
 }
-.work article p {
-    padding-left: 100px;
+.work-content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.work article img {
+.work-content-1 img {
     width: 1000px;
     height: 500px;
+}
+.work-content-1 p {
+    padding-left: 100px;
 }
 .vl {
     border-left: 6px solid rgb(145, 207, 145);
     height: 500px;
   }
-.work-content {
-    background-color: rgba(202, 254, 167, 0.5);
+.work-content-2 {
     display: flex;
     flex-direction: row;
-    position: relative;
-    padding-left: 847px;
+    justify-content: flex-end;
+    padding-right: 120px;
+
 }
-.work-content a, .work-content img {
-    width: 500px;
-    height: 350px;
+.work-content-2 img {
+    width: 400px;
+    height: 300px;
+}
+#Run {
     padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+#Camelot{
+    padding: 20px;
 }
 /* Contact Me Styles */
 .Contact-Me {
