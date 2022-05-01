@@ -10,7 +10,7 @@ header{
     background-color: rgb(145, 207, 145);
     top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 header div {
@@ -50,10 +50,7 @@ header nav ul li a {
     align-items: center;
     padding: none;
     flex-grow: 1;
-}
-hero {
-    background-color: white;
-    
+    background-color: rgba(202, 254, 167, 0.5);
 }
 hero #hi{
     font-size: 100px;
@@ -71,13 +68,122 @@ hero #extra {
     padding-left: 20px;
 }
 hero img {
-    height: 540px;
+    height: 400px;
 }
 /* About Me Styles */
-#About-Me {
+.About-Me {
     background-color: rgb(145, 207, 145);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: none;
+    flex-grow: 1;
+}
+.About-Me img {
+    height: 400px;
+}
+#about{
+    display: flexbox;
+    flex-direction: column;
+    color: white;
+    font-size: 100px;
+    padding-left: 50px;
+}
+#me {
+    display: flexbox;
+    flex-direction: column;
+    color: white;
+    font-size: 100px;
+    padding-left: 50px;
+}
+.About-Me article {
+    color: white;
+    font-size: 25px;
+}
+#first {
+    font-size: 50px;
+    text-decoration: wavy;
+}
+.About-Me article p {
+    padding: 10px;
+}
+#dh {
+    font-style: italic;
+}
+#je {
+    font-style: italic;
+}
+/* Work */
+.work {
+    align-items: center;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: rgba(202, 254, 167, 0.5);
+}
+.work article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(145, 207, 145);
+    font-size: 100px;
+    padding-left: 20px;
+}
+.work article p {
+    padding-left: 100px;
+}
+.work article img {
+    width: 1000px;
+    height: 500px;
+}
+.vl {
+    border-left: 6px solid rgb(145, 207, 145);
+    height: 500px;
+  }
+.work-content {
+    background-color: rgba(202, 254, 167, 0.5);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 847px;
+}
+.work-content a, .work-content img {
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Contact Me Styles */
 .Contact-Me {
     background-color: rgb(145, 207, 145);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact{
+    display: flexbox;
+    flex-direction: column;
+    color: white;
+    font-size: 100px;
+    padding-left: 20px;
+}
+#contact2{
+    display: flexbox;
+    flex-direction: column;
+    color: white;
+    font-size: 100px;
+    padding-left: 20px;
+}
+#info {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: normal;
+}
+.Contact-Me img {
+    height: 400px;
 }
