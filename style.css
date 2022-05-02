@@ -5,16 +5,18 @@
     font-family:inherit;
 }
 /* Header Styles */
-header{
+nav{
     padding: 20px 30px;
     background-color: rgb(145, 207, 145);
     top: 0;
     display: flex;
+    flex-direction: row;
+    width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: sticky;
 }
-header div {
+nav div {
     color: white;
     font-size: 30px;
     padding-top: 10px;
@@ -23,14 +25,13 @@ header div {
     flex-wrap: wrap;
     text-decoration: none;
 }
-header a {
+nav a {
     text-decoration: none;
     color: white;
     display: flex;
     justify-content: space-around;
 }
-header nav ul{
-    position: relative;
+nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -39,7 +40,7 @@ header nav ul{
     text-decoration: none;
     font-size: 30px;
 }
-header nav ul li a {
+nav ul li a {
     padding: 10px 15px;
     align-items: center;
 }
@@ -48,9 +49,10 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
     align-items: center;
     padding: none;
-    flex-grow: 1;
     background-color: rgba(202, 254, 167, 0.5);
 }
 hero #hi{
@@ -77,9 +79,10 @@ hero img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
     align-items: center;
     padding: none;
-    flex-grow: 1;
 }
 .About-Me img {
     height: 400px;
@@ -116,54 +119,43 @@ hero img {
     font-style: italic;
 }
 /* Work */
-.work-content-all {
-    color: rgb(145, 207, 145);
-    font-size: 100px;
-    padding-left: 20px;
-    padding-top: 20px;
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
     background-color: rgba(202, 254, 167, 0.5);
 }
-.work-content-1 {
+.aside{
+    flex: 1;
+    color: rgb(145, 207, 145);
+    font-size: 100px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.work-links{
+    padding: 20px 0 20px
+}
+.work-links li{
+    flex: 1;
+    width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-.work-content-1 img {
-    width: 1000px;
-    height: 500px;
-}
-.work-content-1 p {
-    padding-left: 100px;
-}
-.vl {
-    border-left: 6px solid rgb(145, 207, 145);
-    height: 500px;
-  }
-.work-content-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-right: 120px;
-
-}
-.work-content-2 img {
-    width: 400px;
-    height: 300px;
-}
-#Run {
-    padding: 20px;
-}
-#Camelot{
-    padding: 20px;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    list-style: none;
 }
 /* Contact Me Styles */
 .Contact-Me {
     background-color: rgb(145, 207, 145);
     color: white;
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 #contact{
     display: flexbox;
